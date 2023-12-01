@@ -71,8 +71,35 @@ form div.campo {
     background-color: #5f2c82;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
+
+}
+
+div.campo span {
+    color: white;
+    /*background-color: black;*/
+    font-size: 2em;
+    width: 40px;
+    padding-top: 2px;
+}
+
+div.campo input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height:100% ;
+
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+
+    transform: translateY(-10px);
+}
+
+div.campo input:focus-within {
+    background-color: white;
 }
 
 form input[type=submit] {
