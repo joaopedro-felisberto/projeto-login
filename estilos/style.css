@@ -33,7 +33,7 @@ section#login {
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 250px;
+    width: 262px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -54,6 +54,17 @@ section#login #img {
 section#login #form {
     display: block;
     padding: 10px;
+
+
+}
+
+div#form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form p {
+    font-size: 0.9em;
 }
 
 
